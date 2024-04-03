@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NOSOTROS */
+
+
+
+.navbar-nav .nav-link:hover {
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color: #5ec2cf;
+    color: #000000;
+    padding: 20px;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.rounded {
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+
+.texto-grande {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+}
+
+.texto-grande-2 {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+/* CONTACTO */
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
