@@ -1,0 +1,8 @@
+/* STOCK */
+
+
+
+.img-fluid.stock-image:hover {
+    transform: scale($escala-hover);
+    transition: $transicion-escala;
+}

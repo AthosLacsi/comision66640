@@ -1,0 +1,41 @@
+/* NOSOTROS */
+
+@mixin rounded-styles($radius, $border-width, $border-color) {
+    border-radius: $radius;
+    border: $border-width solid $border-color;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded {
+    @include rounded-styles(10px, 2px, #000000);
+}
+
+.texto-grande, .texto-grande-2 {
+    font-size: $tamano-texto;
+    font-family: $fuente-texto;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.hidden-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: $transicion-opacidad;
+}
+
+.image-container:hover .hidden-image {
+    opacity: 1;
+    transition: $transicion-opacidad;
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,20 @@
+/* Colores */
+$color-fondo: rgb(234, 153, 153);
+$color-fondo-gradient: linear-gradient(0deg, rgba(234, 153, 153, 1) 52%, rgba(255, 255, 255, 1) 100%);
+$color-footer: #5ec2cf;
+$color-texto: #000000;
+
+/* Tamaños */
+$tamano-border-radius: 10px;
+$tamano-border: 2px;
+$tamano-texto: 24px;
+
+/* Fuentes */
+$fuente-texto: 'Lato', sans-serif;
+
+/* Transiciones */
+$transicion-escala: transform 0.3s ease;
+$transicion-opacidad: opacity 0.3s ease;
+
+/* Otras */
+$escala-hover: 1.1;

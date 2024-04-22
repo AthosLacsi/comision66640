@@ -1,0 +1,9 @@
+/* BODY */
+
+body {
+    background: $color-fondo;
+    background: $color-fondo-gradient;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
